@@ -47,7 +47,7 @@
   flex: 0 0 auto;
   width: 50px;
   height: auto;
-  padding: auto;
+  padding: 1px;
   position: relative;
 }
 
@@ -925,51 +925,44 @@ ul.navbar__menu li a:hover {
   justify-content: space-between;
   align-items: center;
   width: 240px;
-}
-
-.website__rights {
-  color: #fff;
 /* } */
 .footer {
-  background-color: #333;
-  color: #ddd;
   padding: 10px;
 }
 
 .container {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
-  margin: 10px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8b34a;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex; 
 }
 
 .footer-content {
   flex: 1;
+  padding: 10px;
+  width: 100%;
 }
 
 .footer-content h3 {
-  font-size: 18px;
+  font-size: 24px;
   margin-bottom: 10px;
 }
 
 .footer-content p {
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 5px;
+  justify-self: left;
 }
 
 .social-links {
   list-style-type: none;
-  padding: 0;
-}
-
-.social-links li {
-  display: flex;
-  margin-right: 10px;
+  
 }
 
 .social-links li a {
-  color: #fff;
-  font-size: 14px;
   text-decoration: none;
 }
 
@@ -977,6 +970,13 @@ ul.navbar__menu li a:hover {
   color: hotpink;
 }
 
+
+
+
+/* Add a hover effect */
+.fa:hover {
+  opacity: 0.8;
+}
 
 @media screen and (max-width: 820px) {
   .footer__links {
@@ -987,9 +987,6 @@ ul.navbar__menu li a:hover {
     margin-bottom: 2rem;
   }
 
-  .website__rights {
-    margin-bottom: 2rem;
-  }
 
   .footer__link--wrapper {
     flex-direction: column;
@@ -1006,4 +1003,41 @@ ul.navbar__menu li a:hover {
     padding: 10px;
     width: 100%;
   }
+}
+
+h1 {
+  text-align: center;
+  background-color: #ff8177;
+  background-image: linear-gradient(to right, #ff0844 0%, #f7673c 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  margin: 10 ;
+  padding: 30px;
+  
+}
+.pL {
+  width: 100%;
+  height: 20%;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  color: #444;
+}
+
+.pop {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: oblique;
+  font-size: medium;
+  font-size: 27px;
+  line-height: 1.2;
+}
+.pS {
+  width: 100px;
+  height: auto;
+  padding: 10px;
+  filter: contrast(100);
 }
