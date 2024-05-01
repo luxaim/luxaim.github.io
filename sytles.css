@@ -114,7 +114,7 @@ ul.topnav.responsive li a {
     width: 100%;
     height: 100%;
     background-image: url('img/57ent.jpg');
-    background-color: rgba(35, 63, 146, 0.9);
+    background-color: rgb(228, 232, 244);
     background-blend-mode: multiply;
     z-index: -1;
     background-position: center;
@@ -434,7 +434,7 @@ h5.text {
   width: 100%;
   height: 100%;
   background-image: url('img/Events mgt.jpg');
-  background-color: rgba(255, 255, 200, 0.9);
+  background-color: rgb(250, 255, 255, 0.9);
   background-blend-mode: multiply;
   z-index: -1;
   background-position: center;
@@ -852,7 +852,7 @@ background-size: 100%;
   width: 100%;
   height: 100%;
   background-image: url('img/Proposal2.jpg');
-  background-color: rgba(255, 255, 200, 0.9);
+  background-color: rgba(255, 255, 255, 0.9);
   background-blend-mode: multiply;
   z-index: -1;
   background-position: center;
