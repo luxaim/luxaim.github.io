@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact form</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon.ico\apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico\favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon.ico\favicon-16x16.png">
+    <link rel="manifest" href="favicon.ico\site.webmanifest">
+    <link rel="mask-icon" href="favicon.ico\safari-pinned-tab.svg" color="#ee0979">
+    <meta name="msapplication-TileColor" content="#ee0979">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <div class="contact-left-title">
+                <h2>Get in touch</h2>
+                <hr>
+            </div>
+            <input type="hidden" name="access_key" value="5ef7470a-da9a-496e-99dc-dd34b049e1a4">
+            <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+            <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+            <textarea name="message" placeholder="Message Us" class="contact-inputs" required></textarea>
+            <button type="submit">Submit <img src="img/ar.jpg.png" alt=""></button>
+        </form>
+        <div class="contact-right">
+            <img src="img\contact.jpg" alt="">
+            <button class="done"><a href="./index.html"> Done </a> </button>
+        </div>
+
+    </div>
+</body>
+</html>
