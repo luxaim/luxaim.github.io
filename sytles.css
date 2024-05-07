@@ -1008,9 +1008,13 @@ transition: 0.3s ease-in;
   font-size: 2.5rem;
 }
 .dbutton {
-  justify-content: center;
   display: flex;
-  
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  padding: 30px;
+  margin: 10px;
 }
 .done {
   display: flex;
@@ -1023,8 +1027,15 @@ transition: 0.3s ease-in;
   border-radius: 50px;
   background: linear-gradient(270deg,#ff994f,#fa6d86);
   cursor: pointer;
+
 }
 
 .done a {
   text-decoration: none;
+}
+
+.descript {
+  color: #ee0979;
+  font-size: 40px;
+  font-weight: 500;
 }
