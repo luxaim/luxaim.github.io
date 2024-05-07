@@ -267,16 +267,16 @@ ul.navbar__menu li a:hover {
 
 .hero__description {
   font-size: 30px;
-  background: #da22ff; /* fallback for old browsers */
+  background: #ee0979; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #9114ff,
-    #da22ff
+    #ee0979,
+    #fe3b6f
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #8f0eff,
-    #da22ff
+    #ee0979,
+    #fe3b6f
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: 100%;
   -webkit-background-clip: text;
@@ -477,7 +477,7 @@ ul.navbar__menu li a:hover {
 }
 .caption {
   position: absolute;
-  bottom: 0;
+  top: 0;
   left: 0;
   width: 100%;
   /* background-color: rgba(160, 16, 16, 0.7); */
@@ -600,9 +600,9 @@ ul.navbar__menu li a:hover {
 
 .main__btn {
   font-size: 1.8rem;
-  background: #833ab4;
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  background: #ee0979;
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #fe3b6f);
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #fe3b6f);
   padding: 20px 60px;
   border: none;
   border-radius: 4px;
