@@ -471,20 +471,20 @@ ul.navbar__menu li a:hover {
   color: #fff;
   /* background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%); */
   transition: 0.3s ease-in;
+  text-align: center;
 }
 .services__card img {
   display: block;
 }
 .caption {
   position: absolute;
-  top: 0;
+  bottom: 0;
   left: 0;
   width: 100%;
-  /* background-color: rgba(160, 16, 16, 0.7); */
   padding: 10px;
   text-align: center;
   color: #ee0979;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .services__card h2 {
